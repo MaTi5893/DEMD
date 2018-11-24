@@ -1,0 +1,56 @@
+alliance = {
+	first = "SWE"
+	second = "PRU"
+	start_date = "1836.1.1"
+	end_date = "1936.1.1"
+}
+# Sweden
+vassal = {
+	first = "SWE"
+	second = "NOR"
+	start_date = "1836.1.1"
+	end_date = "1936.1.1"
+}
+# France
+vassal = {
+	first = "FRA"
+	second = "SPA"
+	start_date = "1836.1.1"
+	end_date = "1936.1.1"
+}
+vassal = {
+	first = "FRA"
+	second = "LOU"
+	start_date = "1836.1.1"
+	end_date = "1936.1.1"
+}
+vassal = {
+	first = "FRA"
+	second = "QUE"
+	start_date = "1836.1.1"
+	end_date = "1936.1.1"
+}
+vassal = {
+	first = "FRA"
+	second = "NSP"
+	start_date = "1836.1.1"
+	end_date = "1936.1.1"
+}
+vassal = {
+	first = "FRA"
+	second = "NGR"
+	start_date = "1836.1.1"
+	end_date = "1936.1.1"
+}
+vassal = {
+	first = "FRA"
+	second = "VPE"
+	start_date = "1836.1.1"
+	end_date = "1936.1.1"
+}
+vassal = {
+	first = "FRA"
+	second = "VRP"
+	start_date = "1836.1.1"
+	end_date = "1936.1.1"
+}
