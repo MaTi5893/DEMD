@@ -1826,6 +1826,13 @@ neo_european_cultures = {
 		}
 		radicalism = 10
 	}
+	french_louisianian = {
+		color = {90, 90, 180}
+		first_names = { Narcisse René Èdouard Luc Letellier Théodore Louis Francois Auguste Joseph Pierre Luis-Phillippe Jean Gaspard Eugéne Èssioff Huguel Jean-Pierre Gilles
+		}
+		last_names = { Belleau Caron "de St.-Just" Robitaille Masson Angers Chapleau Jotte Pantaléon Langelier Damasne LeBlanc Brodeur Perodeau
+		}
+	}
 }
 
 latin_american_cultures = {
