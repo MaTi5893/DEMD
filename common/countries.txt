@@ -7,6 +7,9 @@ REB 	= 	"countries/rebels.txt"
 ### Dieu Et Mon Droit ###
 #########################
 
+# Europe
+HRE   = "countries/Holy Roman Empire.txt"
+
 # North America
 LOU		= "countries/Louisiana.txt"
 NSP		= "countries/New Spain.txt"
