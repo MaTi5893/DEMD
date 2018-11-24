@@ -1,2 +1,0 @@
-# DEMD
-Mod files
