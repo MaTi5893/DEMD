@@ -1,1 +1,21 @@
-country_event = {}
+country_event = {
+  id = 725000
+  title = "The Polish-Lithuanian Commonwealth"
+  desc = "The glorious Commonwealth is an old nation. Founded by the permanent personal union of the kingdoms of Poland and Lithuania in 1569, we are unique in terms of the rights we allow our citizens, especially the nobility, multiculturalism, tolerance and religious freedom. However, since the end of the founding Jagiellon dynasty in 1572 the Commonwealth has only grown weaker. A powerful landed aristocracy, the Szlachta, through the Sejm have near unlimited decision-making powers in the government. These nobles can stop any decision of the King or the Sejm with a single veto. This has resulted in the Commonwealth becoming weak and unstable in comparison to our extremely autocratic neighbours of Prussia and Russia. Worried voices are making themselves heard, that our powerful neighbours will partition the country, if we do not strengthen the Commonwealth."
+  major = yes
+  trigger = {
+    tag = PLC
+    NOT = {
+      has_country_modifier = szlachta_monarchy
+      has_country_flag = reformed_commonwealth
+    }
+  }
+  mean_time_to_happen = { months = 1 }
+  option = {
+    name = "Okay."
+    add_country_modifier = {
+      name = szlachta_monarchy
+      duration = -1
+    }
+  }
+}
