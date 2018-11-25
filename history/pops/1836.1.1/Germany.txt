@@ -1051,7 +1051,7 @@
 #Swinemunde (132000/33000 POPS)
 547 = {
 	aristocrats = {
-		culture = north_german
+		culture = swedish
 		religion = protestant
 		size = 300 
 	}
@@ -1074,10 +1074,20 @@
 		size = 1500
 	}
 
+	soldiers = {
+		culture = swedish
+		religion = protestant
+		size = 2500
+	}
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 29225
+		size = 27225
+	}
+	farmers = {
+		culture = swedish
+		religion = protestant
+		size = 2225
 	}
 }
 #Stralsund (157000/39250 POPS)
