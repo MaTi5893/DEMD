@@ -205,6 +205,9 @@ political_reforms = {
 			rich_vote = 0
 			middle_vote = 0
 			poor_vote = 0
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 		landed_voting = {
 			rich_vote = 1
@@ -212,6 +215,9 @@ political_reforms = {
 			poor_vote = 0
 			
 			global_immigrant_attract = 0.01
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 		wealth_weighted_voting = {
 			rich_vote = 2
@@ -219,6 +225,9 @@ political_reforms = {
 			poor_vote = 0
 			
 			global_immigrant_attract = 0.02
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 		wealth_voting = {
 			rich_vote = 1
@@ -226,6 +235,9 @@ political_reforms = {
 			poor_vote = 0
 			
 			global_immigrant_attract = 0.03
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 		universal_weighted_voting = {
 			rich_vote = 3
@@ -233,6 +245,9 @@ political_reforms = {
 			poor_vote = 1
 			
 			global_immigrant_attract = 0.04
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 		universal_voting = {
 			rich_vote = 1
@@ -240,6 +255,9 @@ political_reforms = {
 			poor_vote = 1
 			
 			global_immigrant_attract = 0.05
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 	}
 	
@@ -247,15 +265,22 @@ political_reforms = {
 	upper_house_composition = {
 		party_appointed = {
 			rules = { same_as_ruling_party = yes }
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 		appointed = {
 			rules = { rich_only = yes }
 			global_immigrant_attract = 0.01
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 		state_equal_weight = {
 			rules = { state_vote = yes }
 			allow = { 
 				NOT = { vote_franschise = none_voting }
+				NOT = { has_country_modifier = szlachta_monarchy }
 			}
 			global_immigrant_attract = 0.02
 		}
@@ -263,6 +288,7 @@ political_reforms = {
 			rules = { population_vote = yes }
 			allow = { 
 				NOT = { vote_franschise = none_voting }
+				NOT = { has_country_modifier = szlachta_monarchy }
 			}
 			global_immigrant_attract = 0.03
 		}
@@ -273,29 +299,38 @@ political_reforms = {
 			rules = { largest_share = yes }
 			allow = { 
 				NOT = { vote_franschise = none_voting }
+				NOT = { has_country_modifier = szlachta_monarchy }
 			}
 		}
 		jefferson_method = {
 			rules = { dhont = yes }
 			allow = { 
 				NOT = { vote_franschise = none_voting }
+				NOT = { has_country_modifier = szlachta_monarchy }
 			}
 		}
 		proportional_representation = {
 			rules = { sainte_laque = yes }
 			allow = { 
 				NOT = { vote_franschise = none_voting }
+				NOT = { has_country_modifier = szlachta_monarchy }
 			}			
 		}
 	}
 	public_meetings = {
 		no_meeting = {
 			#no immediate effect
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 		yes_meeting = {
 			issue_change_speed = 1
 			global_immigrant_attract = 0.01
 			suppression_points_modifier = -0.25
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 
 	}
@@ -304,34 +339,55 @@ political_reforms = {
 		state_press = {
 			literacy_con_impact = -0.25
 			suppression_points_modifier = 0.25
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 		censored_press = {
 			issue_change_speed = 0.25
 			global_immigrant_attract = 0.01
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 		free_press = {
 			literacy_con_impact = 0.25
 			issue_change_speed = 0.5
 			global_immigrant_attract = 0.02
 			suppression_points_modifier = -0.25
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 	}
 	trade_unions = {
 		next_step_only = yes
 		no_trade_unions = {
 			#no immediate effect
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 		state_controlled = {
 			social_reform_desire = 0.1
 			global_immigrant_attract = 0.01
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 		non_socialist = {
 			social_reform_desire = 0.2
 			global_immigrant_attract = 0.02
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 		all_trade_unions = {
 			social_reform_desire = 0.3
 			global_immigrant_attract = 0.03
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 	}
 	
@@ -340,21 +396,36 @@ political_reforms = {
 		underground_parties = {
 			ruling_party_support = 0.2
 			global_immigrant_attract = 0.01
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 		harassment = {
 			ruling_party_support = 0.15
 			global_immigrant_attract = 0.02
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 		gerrymandering = {
 			ruling_party_support = 0.10
 			global_immigrant_attract = 0.03
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 		non_secret_ballots = {
 			ruling_party_support = 0.05
 			global_immigrant_attract = 0.04
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 		secret_ballots = {
 			global_immigrant_attract = 0.05
+			allow = {
+				NOT = { has_country_modifier = szlachta_monarchy }
+			}
 		}
 	}
 }
