@@ -10,7 +10,7 @@
 	clerks = {
 		culture = ashkenazi
 		religion = jewish
-		size = 50
+		size = 45
 	}
 
 	craftsmen = {
