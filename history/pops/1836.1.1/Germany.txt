@@ -2688,9 +2688,15 @@
 	aristocrats = {
 		culture = south_german
 		religion = catholic
-		size = 650  
+		size = 250  
 	}
 
+	aristocrats = {
+		culture = french
+		religion = catholic
+		size = 450  
+	}
+	
 	clergymen = {
 		culture = south_german
 		religion = catholic
@@ -2748,21 +2754,26 @@
 	artisans = {
 		culture = north_german
 		religion = jewish
-		size = 495
+		size = 425
+	}
+		artisans = {
+		culture = french
+		religion = catholic
+		size = 425
 	}
 }
 #under the rule of Prussia 1836  
 #Trier (220000/55000 POPS)
 572 = {
 	aristocrats = {
-		culture = north_german
-		religion = protestant
+		culture = french
+		religion = catholic
 		size = 300 
 	}
 
 	bureaucrats = {
-		culture = north_german
-		religion = protestant
+		culture = french
+		religion = catholic
 		size = 850
 	}
 
@@ -2783,17 +2794,27 @@
 		religion = protestant
 		size = 1350
 	}
-
+	
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 350
+	}
 	soldiers = {
 		culture = north_german
 		religion = protestant
+		size = 275 
+	}
+	soldiers = {
+		culture = french
+		religion = catholic
 		size = 275 
 	}
 
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 23775
+		size = 18775
 	}
 
 	aristocrats = {
@@ -2823,14 +2844,19 @@
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size = 25800 
+		size = 20800 
+	}
+		farmers = {
+		culture = north_german
+		religion = catholic
+		size = 15800 
 	}
 }
 #Saarbrucken (308000/77000 POPS)
 573 = {
 	aristocrats = {
-		culture = north_german
-		religion = protestant
+		culture = french
+		religion = catholic
 		size = 250 
 	}
 
@@ -2843,9 +2869,13 @@
 	artisans = {
 		culture = north_german
 		religion = protestant
-		size = 1250
+		size = 1000
 	}
-
+	artisans = {
+		culture = french
+		religion = catholic
+		size = 250
+	}
 	soldiers = {
 		culture = north_german
 		religion = protestant
@@ -2855,7 +2885,7 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 22025
+		size = 10025
 	}
 
 	aristocrats = {
@@ -2885,7 +2915,7 @@
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size = 45900 
+		size = 35900 
 	}
 
 	clergymen = {
@@ -2903,14 +2933,14 @@
 	farmers = {
 		culture = french
 		religion = catholic
-		size = 1875 
+		size = 23875 
 	}
 }
 #Kreuznach (228000/57000 POPS)
 574 = {
 	aristocrats = {
-		culture = north_german
-		religion = protestant
+		culture = french
+		religion = catholic
 		size = 300 
 	}
 
@@ -2935,7 +2965,7 @@
 	farmers = {
 		culture = north_german
 		religion = protestant
-		size = 27575
+		size = 20575
 	}
 
 	aristocrats = {
@@ -2965,7 +2995,13 @@
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size = 24875
+		size = 17875
+	}
+
+	farmers = {
+		culture = north_german
+		religion = catholic
+		size = 10000
 	}
 }
 #Rhineland Region (1908000) 
@@ -2979,15 +3015,15 @@
 	}
 
 	bureaucrats = {
-		culture = north_german
+		culture = french
 		religion = catholic
 		size = 2100
 	}
 
 	capitalists = {
-		culture = north_german
+		culture = french
 		religion = catholic
-		size = 15
+		size = 105
 	}
 
 	officers = {
@@ -3003,19 +3039,19 @@
 	}
 
 	clerks = {
-		culture = north_german
+		culture = french
 		religion = catholic
 		size = 125
 	}
 
 	craftsmen = {
-		culture = north_german
+		culture = french
 		religion = catholic
 		size = 1250
 	}
 
 	artisans = {
-		culture = north_german
+		culture = french
 		religion = catholic
 		size = 10000
 	}
@@ -3035,7 +3071,7 @@
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size = 97010
+		size = 90010
 	}
 
 	clergymen = {
@@ -3050,22 +3086,23 @@
 		size = 25
 	}
 
-	craftsmen = {
-		culture = north_german
-		religion = jewish
-		size = 150
-	}
 
 	artisans = {
 		culture = north_german
 		religion = jewish
 		size = 565
 	}
+	
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 7875
+	}
 }
 #Aachen (400000/100000 POPS)
 576 = {
 	aristocrats = {
-		culture = north_german
+		culture = french
 		religion = catholic
 		size = 1100 
 	}
@@ -3091,25 +3128,25 @@
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size = 90150
+		size = 75150
 	}
 
 	clergymen = {
-		culture = wallonian
+		culture = french
 		religion = catholic
 		size = 10 
 	}
 
 	farmers = {
-		culture = wallonian
+		culture = french
 		religion = catholic
-		size = 990 
+		size = 16090 
 	}
 }
 #Kleves (356000/89000 POPS)
 577 = {
 	aristocrats = {
-		culture = north_german
+		culture = french
 		religion = catholic
 		size = 800 
 	}
@@ -3135,7 +3172,7 @@
 	farmers = {
 		culture = north_german
 		religion = catholic
-		size = 72100
+		size = 70100
 	}
 
 	aristocrats = {
@@ -3167,7 +3204,11 @@
 		religion = protestant
 		size = 8275
 	}
-
+	farmers = {
+		culture = french
+		religion = catholic
+		size = 2075
+	}
 }
 #Dusseldorf (364000/91000 POPS)
 578 = {
