@@ -33,5 +33,10 @@ country_event = {
   }
 }
 ### Random Generic Events for Influence ###
+province_event = {
+  id = 725010
+  title = "The Countryside of $PROVINCENAME$"
+  desc = "In the Polish-Lithuanian Commonwealth only the Szlachta are allowed to own territory. As such, villages and cities often ended up in direct ownership or at least the influence of these lords."
+}
 ### Historical Events for Influence ###
 ### Government Change Events ###
