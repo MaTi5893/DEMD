@@ -78,6 +78,153 @@ province_event = {
       average_pop_militancy = 8
     }
   }
+  option = {
+    name = "Nationalize $PROVINCENAME$"
+    any_pop = {
+      limit = { strata = rich }
+      militancy = 8
+      consciousness = 4
+    }
+    any_pop = {
+      limit = { strata = middle }
+      militancy = 3
+      consciousness = 4
+    }
+    any_pop = {
+      limit = { strata = poor }
+      militancy = -1
+      consciousness = -2
+    }
+    add_province_modifier = {
+      name = crown_land
+      duration = 3650
+    }
+    PLC = {
+      change_variable = {
+        which = king_influence
+        value = 2
+      }
+      any_pop = {
+        limit = { strata = rich }
+        militancy = 3
+        consciousness = 3
+      }
+      any_pop = {
+        limit = { strata = middle }
+        militancy = 1
+        consciousness = 2
+      }
+      any_pop = {
+        limit = { strata = poor }
+        consciousness = -1
+      }
+    }
+    ai_chance = {
+      factor = 33
+      modifier = {
+        factor = 2
+        ruling_party_ideology = reactionary
+      }
+      modifier = {
+        factor = 0.5
+        ruling_party_ideology = liberal
+      }
+    }
+  }
+  option = {
+    name = "Let sleeping dogs lie"
+    any_pop = {
+      limit = { strata = rich }
+      militancy = -2
+      consciousness = -4
+    }
+    any_pop = {
+      limit = { strata = middle }
+      militancy = 5
+      consciousness = 6
+    }
+    any_pop = {
+      limit = { strata = poor }
+      militancy = 3
+    }
+    PLC = {
+      change_variable = {
+        which = szlachta_influence
+        value = 2
+      }
+      any_pop = {
+        limit = { strata = rich }
+        militancy = -1
+        consciousness = -2
+      }
+      any_pop = {
+        limit = { strata = middle }
+        militancy = 2
+        consciousness = 3
+      }
+      any_pop = {
+        limit = { strata = poor }
+        militancy = 1
+      }
+    }
+    ai_chance = {
+      factor = 34
+    }
+  }
+  option = {
+    name = "Allow the city self-rule"
+    any_pop = {
+      limit = { strata = rich }
+      militancy = 8
+      consciousness = 4
+    }
+    any_pop = {
+      limit = { strata = middle }
+      militancy = -3
+      consciousness = -3
+    }
+    any_pop = {
+      limit = { strata = poor }
+      militancy = 1
+      consciousness = 3
+    }
+    add_province_modifier = {
+      name = privatized_land
+      duration = 3650
+    }
+    PLC = {
+      change_variable = {
+        which = bourgeois_influence
+        value = 2
+      }
+      any_pop = {
+        limit = { strata = rich }
+        militancy = 3
+        consciousness = 3
+      }
+      any_pop = {
+        limit = { strata = middle }
+        militancy = -1
+        consciousness = -1
+      }
+      any_pop = {
+        limit = { strata = poor }
+        militancy = 0.5
+        consciousness = 1
+      }
+    }
+    ai_chance = {
+      factor = 33
+      modifier = {
+        factor = 0.5
+        ruling_party_ideology = reactionary
+      }
+      modifier = {
+        factor = 2
+        ruling_party_ideology = liberal
+      }
+    }
+  }
 }
 ### Historical Events for Influence ###
 ### Government Change Events ###
