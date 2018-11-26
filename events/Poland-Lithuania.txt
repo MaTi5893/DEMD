@@ -39,7 +39,16 @@ province_event = {
   desc = "In the Polish-Lithuanian Commonwealth only the Szlachta are allowed to own territory. As such, villages and cities often ended up in direct ownership or at least the influence of these lords. Merchants in $PROVINCENAME$ have been clamoring for the establishment of an industrial workshop, to keep in tune with the rest of the world. The noble, however, strongly disagrees as it would endanger his power over the serfs. Normally the King wouldn't be able to do anything about this, but now we can, as the noble in question has been caught doing a fair amount of misdeeds as well as collaborating with foreign powers. Penalizing him would most certainly enrage the Szlachta though."
   trigger = {
     owner = { tag = PLC }
-    
+    has_factories = yes
+    is_colonial = no
+    NOT = {
+      has_province_modifier = privatized_land
+      has_province_modifier = crown_land
+    }
+  }
+  allow_multiple_instances = no
+  mean_time_to_happen = {
+    months = 600
   }
 }
 ### Historical Events for Influence ###
