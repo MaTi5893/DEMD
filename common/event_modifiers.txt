@@ -16,6 +16,7 @@ szlachta_monarchy = {
 	administrative_efficiency_modifier = -0.25
 	factory_throughput = -0.5
 	rgo_output = -0.25
+	factory_owner_cost = 10
 	icon = 2
 }
 
