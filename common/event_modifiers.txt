@@ -13,6 +13,7 @@ szlachta_monarchy = {
 	org_regain = -0.3
 	tax_efficiency = -0.05
 	supply_consumption = 0.1
+	administrative_efficiency_modifier = -0.25
 	icon = 2
 }
 
