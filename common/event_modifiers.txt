@@ -14,10 +14,18 @@ szlachta_monarchy = {
 	tax_efficiency = -0.05
 	supply_consumption = 0.1
 	administrative_efficiency_modifier = -0.25
-	factory_throughput = -0.5
+	factory_throughput = -0.25
 	rgo_output = -0.25
 	factory_owner_cost = 2
 	icon = 2
+}
+privatized_land = {
+	local_factory_throughput = 0.25
+	icon = 1
+}
+crown_land = {
+	local_rgo_output = 0.25
+	icon = 1
 }
 
 ##### POLITICAL EVENTS ######
