@@ -104,19 +104,21 @@ province_event = {
         which = king_influence
         value = 2
       }
-      any_pop = {
-        limit = { strata = rich }
-        militancy = 3
-        consciousness = 3
-      }
-      any_pop = {
-        limit = { strata = middle }
-        militancy = 1
-        consciousness = 2
-      }
-      any_pop = {
-        limit = { strata = poor }
-        consciousness = -1
+      any_owned = {
+        any_pop = {
+          limit = { strata = rich }
+          militancy = 3
+          consciousness = 3
+        }
+        any_pop = {
+          limit = { strata = middle }
+          militancy = 1
+          consciousness = 2
+        }
+        any_pop = {
+          limit = { strata = poor }
+          consciousness = -1
+        }
       }
     }
     ai_chance = {
@@ -152,19 +154,21 @@ province_event = {
         which = szlachta_influence
         value = 2
       }
-      any_pop = {
-        limit = { strata = rich }
-        militancy = -1
-        consciousness = -2
-      }
-      any_pop = {
-        limit = { strata = middle }
-        militancy = 2
-        consciousness = 3
-      }
-      any_pop = {
-        limit = { strata = poor }
-        militancy = 1
+      any_owned = {
+        any_pop = {
+          limit = { strata = rich }
+          militancy = -1
+          consciousness = -2
+        }
+        any_pop = {
+          limit = { strata = middle }
+          militancy = 2
+          consciousness = 3
+        }
+        any_pop = {
+          limit = { strata = poor }
+          militancy = 1
+        }
       }
     }
     ai_chance = {
@@ -197,20 +201,22 @@ province_event = {
         which = bourgeois_influence
         value = 2
       }
-      any_pop = {
-        limit = { strata = rich }
-        militancy = 3
-        consciousness = 3
-      }
-      any_pop = {
-        limit = { strata = middle }
-        militancy = -1
-        consciousness = -1
-      }
-      any_pop = {
-        limit = { strata = poor }
-        militancy = 0.5
-        consciousness = 1
+      any_owned = {
+        any_pop = {
+          limit = { strata = rich }
+          militancy = 3
+          consciousness = 3
+        }
+        any_pop = {
+          limit = { strata = middle }
+          militancy = -1
+          consciousness = -1
+        }
+        any_pop = {
+          limit = { strata = poor }
+          militancy = 0.5
+          consciousness = 1
+        }
       }
     }
     ai_chance = {
