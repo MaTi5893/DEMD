@@ -5,7 +5,7 @@ religion = catholic
 government = hms_government
 plurality = 0.3
 nationalvalue = nv_equality
-literacy = 0.5
+literacy = 0.4
 non_state_culture_literacy = 0.2
 civilized = yes
 
@@ -13,7 +13,7 @@ civilized = yes
 # Political reforms
 slavery = no_slavery
 upper_house_composition = appointed
-vote_franschise = landed_voting
+vote_franschise = wealth_weighted_voting
 public_meetings = yes_meeting
 press_rights = censored_press
 trade_unions = no_trade_unions
