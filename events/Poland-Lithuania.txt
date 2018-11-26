@@ -34,3 +34,4 @@ country_event = {
 }
 ### Random Generic Events for Influence ###
 ### Historical Events for Influence ###
+### Government Change Events ###
