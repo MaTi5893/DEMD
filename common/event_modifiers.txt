@@ -8,7 +8,7 @@ szlachta_monarchy = {
 	diplomatic_points_modifier = -0.25
 	suppression_points_modifier = -0.75
 	core_pop_militancy_modifier = 0.02
-	core_pop_consciousness_modifier = -0.03
+	core_pop_consciousness_modifier = 0.03
 	land_organisation = -0.2
 	org_regain = -0.3
 	tax_efficiency = -0.05
@@ -21,10 +21,12 @@ szlachta_monarchy = {
 }
 privatized_land = {
 	local_factory_throughput = 0.25
+	pop_militancy_modifier = 0.02
 	icon = 1
 }
 crown_land = {
 	local_rgo_output = 0.25
+	pop_consciousness_modifier = 0.03
 	icon = 1
 }
 
