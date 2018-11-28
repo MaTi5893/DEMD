@@ -42,6 +42,7 @@
 		culture = swedish
 		religion = protestant
 		size = 300
+	}
 }
 #Kajaani (16000/4000 POPS)
 337 = {
@@ -104,6 +105,7 @@
 		culture = swedish
 		religion = protestant
 		size = 500
+	}
 }
 #Karelia Region (524000)
 #under the rule of Russia in 1836
