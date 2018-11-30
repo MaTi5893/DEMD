@@ -1,6 +1,6 @@
-owner = SAR
-controller = SAR
-add_core = SAR
+owner = SPA
+controller = SPA
+add_core = SIC
 add_core = ITA
 trade_goods = grain
 life_rating = 35
