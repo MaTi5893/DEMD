@@ -1,5 +1,6 @@
-owner = BEL
-controller = BEL
+owner = FRA
+controller = FRA
+add_core = FRA
 add_core = BEL
 add_core = NET
 add_core = FLA

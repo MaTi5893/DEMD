@@ -1,5 +1,7 @@
-owner = LUX
-controller = LUX
+owner = FRA
+controller = FRA
+add_core = FRA
+add_core = BEL
 add_core = LUX
 trade_goods = iron
 life_rating = 35
