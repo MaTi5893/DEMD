@@ -2335,7 +2335,7 @@
 #Sevastopol (60000/15000 POPS)
 967 = {
 	aristocrats = {
-		culture = tatar
+		culture = turkish
 		religion = sunni
 		size = 250
 	}
@@ -2353,7 +2353,7 @@
 	}
 
 	soldiers = {
-		culture = tatar
+		culture = turkish
 		religion = sunni
 		size = 100
 	}
@@ -2367,7 +2367,7 @@
 	aristocrats = {
 		culture = russian
 		religion = orthodox
-		size = 50
+		size = 5
 	}
 
 	clergymen = {
@@ -2379,7 +2379,7 @@
 	artisans = {
 		culture = russian
 		religion = orthodox
-		size = 100
+		size = 10
 	}
 
 	soldiers = {
@@ -2407,8 +2407,8 @@
 	}
 
 	farmers = {
-		culture = ashkenazi
-		religion = jewish
+		culture = turkish
+		religion = sunni
 		size = 590
 	}
 
@@ -2458,6 +2458,18 @@
 		culture = south_german
 		religion = catholic
 		size = 875
+	}
+	
+	bureaucrats = {
+		culture = turkish
+		religion = sunni
+		size = 105
+	}
+	
+	capitalists = {
+		culture = turkish
+		religion = sunni
+		size = 7
 	}
 }
 #Odessa Region (1488000)
