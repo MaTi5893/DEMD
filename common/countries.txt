@@ -7,8 +7,24 @@ REB 	= 	"countries/rebels.txt"
 ### Dieu Et Mon Droit ###
 #########################
 
-# Holy Roman Empire
-HRE   = "countries/Holy Roman Empire.txt"
+# Europe
+BRG		= "countries/Berg.txt"
+BRS		= "countries/Breisgau.txt"
+DOR		= "countries/Dortmund.txt"
+FRI		= "countries/Friesland.txt"
+HEI		= "countries/Heilbronn.txt"
+HOH		= "countries/Hohenzollern.txt"
+HRE		= "countries/Holy Roman Empire.txt"
+KLE		= "countries/Kleve.txt"
+KLN		= "countries/Koln.txt"
+MEN		= "countries/Mecklenburg-Neustrelitz.txt"
+MIN		= "countries/Minden.txt"
+MNZ		= "countries/Mainz.txt"
+MUN		= "countries/Munster.txt"
+OSN		= "countries/Osnabruck.txt"
+SLZ		= "countries/Salzburg.txt"
+ULM		= "countries/Ulm.txt"
+WES		= "countries/Westfalen.txt"
 
 # North America
 LOU		= "countries/Louisiana.txt"
@@ -71,7 +87,7 @@ HOL		= "countries/Holstein.txt"
 LIP		= "countries/Lippe-Detmold.txt"
 LUB		= "countries/Lubeck.txt"
 LUX		= "countries/Luxemburg.txt"
-MEC		= "countries/Mecklenburg.txt"
+MEC		= "countries/Mecklenburg.txt" # Rename into Mecklenburg-Schwerin
 MEI		= "countries/Saxe-Meiningen.txt"
 NAS		= "countries/Nassau.txt"
 NGF		= "countries/North German Fed.txt"
