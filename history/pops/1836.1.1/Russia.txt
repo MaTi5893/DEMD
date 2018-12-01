@@ -471,7 +471,11 @@
 		religion = orthodox
 		size = 675
 	}
-
+	aristocrats = {
+		culture = turkish
+		religion = sunni
+		size = 275
+	}
 	clergymen = {
 		culture = ukrainian
 		religion = orthodox
@@ -489,6 +493,11 @@
 		religion = orthodox
 		size = 4000
 	}
+	soldiers = {
+		culture = turkish
+		religion = sunni
+		size = 400
+	}
 
 	farmers = {
 		culture = ukrainian
@@ -503,8 +512,8 @@
 	}
 
 	bureaucrats = {
-		culture = russian
-		religion = orthodox
+		culture = turkish
+		religion = sunni
 		size = 375
 	}
 
