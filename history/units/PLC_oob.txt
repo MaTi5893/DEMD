@@ -1,0 +1,173 @@
+army = { # 36 000
+	name = "Armia Polska"
+	location = 703
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 692
+	}
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 693
+	}
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 699
+	}
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 700
+	}
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 701
+	}
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 712
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cuirassier
+		home = 685
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cuirassier
+		home = 685
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cuirassier
+		home = 706
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cuirassier
+		home = 708
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cuirassier
+		home = 703
+	}
+	regiment = {
+		name= "Cavalry"
+		type = cuirassier
+		home = 714
+	}
+}
+army = { # 27 000
+	name = "Lietuvos Armija"
+	location = 360
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 711
+	}
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 360
+	}
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 361
+	}
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 946
+	}
+	regiment = {
+		name= "Infantry"
+		type = infantry
+		home = 718
+	}
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 948
+	}
+	regiment = {
+		name= "Artillery"
+		type = artillery
+		home = 945
+	}
+	regiment = {
+		name= "Cavalry"
+		type = dragoon
+		home = 949
+	}
+	regiment = {
+		name= "Cavalry"
+		type = dragoon
+		home = 958
+	}
+}
+navy = { # 3/6/4
+	name = "Marynarka Wojenna"
+	location = 690
+	ship = {
+		name= "Man o War"
+		type = manowar
+	}
+	ship = {
+		name= "Man o War"
+		type = manowar
+	}
+	ship = {
+		name= "Man o War"
+		type = manowar
+	}
+	ship = {
+		name= "Man o War"
+		type = manowar
+	}
+	ship = {
+		name= "Frigate"
+		type = frigate
+	}
+	ship = {
+		name= "Frigate"
+		type = frigate
+	}
+	ship = {
+		name= "Frigate"
+		type = frigate
+	}
+	ship = {
+		name= "Frigate"
+		type = frigate
+	}
+	ship = {
+		name= "Frigate"
+		type = frigate
+	}
+	ship = {
+		name= "Frigate"
+		type = frigate
+	}
+	ship = {
+		name= "1st Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "2nd Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "3rd Transport Flotilla"
+		type = clipper_transport
+	}
+	ship = {
+		name= "4th Transport Flotilla"
+		type = clipper_transport
+	}
+}
