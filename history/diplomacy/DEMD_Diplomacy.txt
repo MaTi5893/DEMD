@@ -54,3 +54,59 @@ vassal = {
 	start_date = "1836.1.1"
 	end_date = "1936.1.1"
 }
+### Ottomans ###
+vassal = {
+	first = "TUR"
+	second = "WAL"
+	start_date = "1836.1.1"
+	end_date = "1936.1.1"
+}
+vassal = {
+	first = "TUR"
+	second = "MOL"
+	start_date = "1836.1.1"
+	end_date = "1936.1.1"
+}
+vassal = {
+	first = "TUR"
+	second = "SIE"
+	start_date = "1836.1.1"
+	end_date = "1936.1.1"
+}
+vassal = {
+	first = "TUR"
+	second = "TUN"
+	start_date = "1836.1.1"
+	end_date = "1936.1.1"
+}
+vassal = {
+	first = "TUR"
+	second = "EGY"
+	start_date = "1836.1.1"
+	end_date = "1936.1.1"
+}
+### HRE ###
+vassal = {
+	first = "PRU"
+	second = "KLE"
+	start_date = "1836.1.1"
+	end_date = "1936.1.1"
+}
+vassal = {
+	first = "PRU"
+	second = "FRI"
+	start_date = "1836.1.1"
+	end_date = "1936.1.1"
+}
+vassal = {
+	first = "PRU"
+	second = "HOH"
+	start_date = "1836.1.1"
+	end_date = "1936.1.1"
+}
+vassal = {
+	first = "PRU"
+	second = "MIN"
+	start_date = "1836.1.1"
+	end_date = "1936.1.1"
+}
