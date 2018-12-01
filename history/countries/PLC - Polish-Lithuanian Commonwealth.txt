@@ -41,4 +41,4 @@ upper_house = {
 	communist = 0
 }
 
-
+oob = "PLC_oob.txt"
