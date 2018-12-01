@@ -31,3 +31,35 @@ HRE_liberal;Hansa-Fraktion;x
 HRE_anarcho_liberal;Radikale Fraktion;x
 HRE_socialist;Sozialistische Fraktion;x
 HRE_communist;Kommunistische Fraktion;x
+BRG;Berg;x
+BRG_ADJ;Bergian;x
+BRS;Breisgau;x
+BRS_ADJ;Breisgauan;x
+DOR;Dortmund;x
+DOR_ADJ;Dortmundian;x
+FRI;East Frisia;x
+FRI_ADJ;East Frisian;x
+HEI;Heilbronn;x
+HEI_ADJ;Heilbronner;x
+HOH;Hohenzollern-Sigmaringen;x
+HOH_ADJ;Hohenzollern;x
+KLE;Kleve;x
+KLE_ADJ;Klevian;x
+KLN;Cologne;x
+KLN_ADJ;Colognian;x
+MEN;Mecklenburg-Neustrelitz;x
+MEN_ADJ;Mecklenburgian;x
+MIN;Minden;x
+MIN_ADJ;Minder;x
+MNZ;Mainz;x
+MNZ_ADJ;Mainzian;x
+MUN;Munster;x
+MUN_ADJ;Munsterian;x
+OSN;Osnabruck;x
+OSN_ADJ;Osnabruckian;x
+ULM;Ulm;x
+ULM_ADJ;Ulmer;x
+WES;Westfalen;x
+WES_ADJ;Westfalian;x
+SLZ;Salzburg;x
+SLZ_ADJ;Salzburger;x
