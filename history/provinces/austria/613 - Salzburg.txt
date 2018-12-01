@@ -1,5 +1,6 @@
-owner = GER
-controller = GER
+owner = SLZ
+controller = SLZ
+add_core = SLZ
 add_core = GER
 trade_goods = grain
 life_rating = 35
