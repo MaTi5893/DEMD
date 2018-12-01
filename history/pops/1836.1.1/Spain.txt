@@ -1210,7 +1210,7 @@
 #Gerona (228000/57000 POPS)
 499 = {
 	aristocrats = {
-		culture = catalan
+		culture = french
 		religion = catholic
 		size = 750
 	}
@@ -1218,9 +1218,14 @@
 	clergymen = {
 		culture = catalan
 		religion = catholic
-		size = 350
+		size = 250
 	}
-
+	
+	clergymen = {
+		culture =french
+		religion = catholic
+		size = 150
+	}
 	artisans = {
 		culture = catalan
 		religion = catholic
@@ -1230,9 +1235,15 @@
 	soldiers = {
 		culture = catalan
 		religion = catholic
-		size = 350
+		size = 150
 	}
 
+	soldiers = {
+		culture = french
+		religion = catholic
+		size = 350
+	}
+	
 	farmers = {
 		culture = catalan
 		religion = catholic
