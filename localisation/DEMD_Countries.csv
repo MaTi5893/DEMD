@@ -66,4 +66,6 @@ SLZ_ADJ;Salzburger;x
 MEC;Mecklenburg-Schwerin;x
 SAR;Savoy;x
 SAR_ADJ;Savoyard;x
-SWE;The Swedish Empire;x
+SWE_absolute_monarchy;The Swedish Empire;x
+SWE_prussian_constitutionalism;The Swedish Empire;x
+SWE_fascist;The Swedish Empire;x
