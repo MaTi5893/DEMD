@@ -29,6 +29,7 @@ WES		= "countries/Westfalen.txt"
 # North America
 LOU		= "countries/Louisiana.txt"
 NSP		= "countries/New Spain.txt"
+ILL   = "countries/Illinois.txt"
 
 # South America
 NGR		= "countries/New Grenada.txt"
