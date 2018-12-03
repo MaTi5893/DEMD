@@ -25,6 +25,7 @@ OSN		= "countries/Osnabruck.txt"
 SLZ		= "countries/Salzburg.txt"
 ULM		= "countries/Ulm.txt"
 WES		= "countries/Westfalen.txt"
+#MAL   ="countries/Knights Hospitallier.txt"
 
 # North America
 LOU		= "countries/Louisiana.txt"
@@ -35,6 +36,9 @@ ILL   = "countries/Illinois.txt"
 NGR		= "countries/New Grenada.txt"
 VPE		= "countries/Viceroyalty of Peru.txt"
 VRP		= "countries/Viceroyalty of Rio de la Plata.txt"
+
+# India
+#MAR   = "countries/Maratha Empire.txt"
 
 ###############
 ### VANILLA ###
