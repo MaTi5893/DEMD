@@ -1,0 +1,6 @@
+owner = VPE
+controller = VPE
+add_core = VPE
+add_core = CHL
+trade_goods = grain
+life_rating = 35

@@ -1,0 +1,6 @@
+owner = VRP
+controller = VRP
+add_core = VRP
+add_core = ARG
+trade_goods = wool
+life_rating = 30

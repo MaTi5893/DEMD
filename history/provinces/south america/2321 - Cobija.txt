@@ -1,0 +1,6 @@
+owner = VPE
+controller = VPE
+add_core = VPE
+add_core = BOL
+trade_goods = tropical_wood
+life_rating = 30
