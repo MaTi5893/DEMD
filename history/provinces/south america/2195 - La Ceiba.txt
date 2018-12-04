@@ -1,0 +1,10 @@
+owner = NSP
+controller = NSP
+add_core = NSP
+add_core = HON
+trade_goods = fruit
+life_rating = 30
+1861.1.1 = {
+	owner = HON
+	controller = HON
+}

@@ -1,0 +1,6 @@
+owner = VRP
+controller = VRP
+add_core = VRP
+add_core = BOL
+trade_goods = iron
+life_rating = 30

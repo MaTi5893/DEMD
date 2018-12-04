@@ -1,0 +1,6 @@
+owner = NGR
+controller = NGR
+add_core = NGR
+add_core = GCO
+trade_goods = coffee
+life_rating = 30
