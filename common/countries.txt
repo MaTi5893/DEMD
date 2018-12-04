@@ -38,7 +38,7 @@ VPE		= "countries/Viceroyalty of Peru.txt"
 VRP		= "countries/Viceroyalty of Rio de la Plata.txt"
 
 # India
-#MAR   = "countries/Maratha Empire.txt"
+MAR   = "countries/Maratha Empire.txt"
 
 ###############
 ### VANILLA ###
