@@ -73,5 +73,11 @@ ILL;Illinois;x
 USA;United States;x
 MAR;Maratha;x
 MAR_ADJ;Marathan;x
+MAR_conservative;Conservative;x
+MAR_liberal;Liberal;x
+MAR_reactionary;Reactionary;x
+MAR_anarcho_liberal;Anarcho-Liberal;x
+MAR_socialist;Socialist;x
+MAR_communist;Communist;x
 MAL;Knights Hospitallier;x
 MAL_ADJ;Knights Hospitallier;x
