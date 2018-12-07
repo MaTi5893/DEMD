@@ -3,7 +3,11 @@ country_event = {
 	title = "The Spanish Empire"
 	desc = "On the 1st November 1700 the Spanish King Charles died without any heirs. In his will, he insisted that Louis XIVs grandson would inherit the throne of Spain. Habsburg Austria protested loudly, but the Spanish did not want to see their empire divided. As such the War of the Spanish Succession started. Eventually France prevailed and Philip of Anjou became King of Spain. Louis XIV then amended his will to proclaim Philip, now King of Spain, future King of France. As such, Spain and France have been in a personal union since 1715. A lot of power has shifted to Paris. Spain will not suffer this indignation indefinitely."
 	major = yes
-	trigger = { civilized = no }
+	trigger = {
+		civilized = no
+		tag = SPA
+	}
+	mean_time_to_happen = { months = 1 }
 	option = {
 		name = "Spain will rise again!"
 		civilized = yes
